@@ -438,7 +438,7 @@ const startTranslate = async () => {
         formData.append("direction", translateDirection.value);
 
         const response = await fetch(
-          "http://localhost:3001/api/translate-document",
+          `${import.meta.env.VITE_API_BASE_URL}/translate-document`,
           {
             method: "POST",
             body: formData,

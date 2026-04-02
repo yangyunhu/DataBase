@@ -458,14 +458,17 @@ async function performSearch(query: string): Promise<void> {
     const controller = new AbortController();
     const signal = controller.signal;
 
-    const response = await fetch("http://localhost:3001/api/search", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+    const response = await fetch(
+      `${import.meta.env.VITE_API_BASE_URL}/search`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ query }),
+        signal,
       },
-      body: JSON.stringify({ query }),
-      signal,
-    });
+    );
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
