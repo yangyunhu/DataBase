@@ -459,7 +459,7 @@ const generateChart = () => {
                   color: "#fff",
                 }
               : { show: false },
-            data: tableData.value.map((row, index) => ({
+            data: tableData.value.map((row) => ({
               name: row[xAxisColumn.value],
               value: row[yAxisColumn.value],
             })),

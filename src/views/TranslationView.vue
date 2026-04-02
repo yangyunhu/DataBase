@@ -104,8 +104,8 @@
               class="file-card"
             >
               <div class="file-card-content">
-                <div class="file-icon" :class="getFileIconClass(file.name)">
-                  <el-icon><component :is="getFileIcon(file.name)" /></el-icon>
+                <div class="file-icon" :class="getFileIconClass()">
+                  <el-icon><component :is="getFileIcon()" /></el-icon>
                 </div>
                 <div class="file-details">
                   <span class="file-name">{{ file.name }}</span>
@@ -369,11 +369,11 @@ const features = [
   },
 ];
 
-const getFileIcon = (fileName: string) => {
+const getFileIcon = () => {
   return DocumentChecked;
 };
 
-const getFileIconClass = (fileName: string) => {
+const getFileIconClass = () => {
   return "word";
 };
 
@@ -433,35 +433,38 @@ const startTranslate = async () => {
       file.progress = 0;
 
       const formData = new FormData();
-      formData.append("file", file.file);
-      formData.append("direction", translateDirection.value);
+      if (file.file) {
+        formData.append("file", file.file);
+        formData.append("direction", translateDirection.value);
 
-      const response = await fetch(
-        "http://localhost:3001/api/translate-document",
-        {
-          method: "POST",
-          body: formData,
-        },
-      );
+        const response = await fetch(
+          "http://localhost:3001/api/translate-document",
+          {
+            method: "POST",
+            body: formData,
+          },
+        );
 
-      if (!response.ok) {
-        const errorData = await response
-          .json()
-          .catch(() => ({ message: "翻译失败" }));
-        throw new Error(errorData.message || "翻译失败");
+        if (!response.ok) {
+          const errorData = await response
+            .json()
+            .catch(() => ({ message: "翻译失败" }));
+          throw new Error(errorData.message || "翻译失败");
+        }
+
+        const blob = await response.blob();
+        const fileName =
+          file.name.replace(/\.[^/.]+$/, "") + "_translated.docx";
+
+        translatedFiles.value.push({
+          name: fileName,
+          size: blob.size,
+          blob: blob,
+        });
+
+        file.status = "done";
+        file.progress = 100;
       }
-
-      const blob = await response.blob();
-      const fileName = file.name.replace(/\.[^/.]+$/, "") + "_translated.docx";
-
-      translatedFiles.value.push({
-        name: fileName,
-        size: blob.size,
-        blob: blob,
-      });
-
-      file.status = "done";
-      file.progress = 100;
     }
 
     ElMessage.success("文档翻译成功！");

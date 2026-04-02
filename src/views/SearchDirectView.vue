@@ -293,7 +293,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive, computed, markRaw } from "vue";
+import { ref, computed, markRaw } from "vue";
 import {
   Search,
   VideoCamera,

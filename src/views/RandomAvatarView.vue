@@ -3438,7 +3438,6 @@ async function downloadAvatar(): Promise<void> {
         downloadFile(
           currentAvatar.value.svgData,
           `avatar-${currentAvatar.value.type}-${Date.now()}-${size}x${size}.svg`,
-          "image/svg+xml",
         );
       } else if (format === "svg") {
         // 生成SVG格式（备用）
@@ -3446,7 +3445,6 @@ async function downloadAvatar(): Promise<void> {
         downloadFile(
           svgData,
           `avatar-${currentAvatar.value.type}-${Date.now()}-${size}x${size}.svg`,
-          "image/svg+xml",
         );
       } else {
         // PNG或JPG格式
@@ -3459,7 +3457,6 @@ async function downloadAvatar(): Promise<void> {
         downloadFile(
           dataUrl,
           `avatar-${currentAvatar.value.type}-${Date.now()}-${size}x${size}.${format}`,
-          mimeType,
         );
       }
     } else {
@@ -3504,7 +3501,6 @@ async function downloadAvatar(): Promise<void> {
         downloadFile(
           svgData,
           `avatar-${currentAvatar.value.type}-${Date.now()}-${size}x${size}.svg`,
-          "image/svg+xml",
         );
       } else {
         const mimeType = format === "jpg" ? "image/jpeg" : "image/png";
@@ -3512,7 +3508,6 @@ async function downloadAvatar(): Promise<void> {
         downloadFile(
           dataUrl,
           `avatar-${currentAvatar.value.type}-${Date.now()}-${size}x${size}.${format}`,
-          mimeType,
         );
       }
     }
@@ -4316,7 +4311,7 @@ function generateObjectSVG(cx: number, cy: number, size: number): string {
 }
 
 // 下载文件
-function downloadFile(data: string, filename: string, mimeType: string): void {
+function downloadFile(data: string, filename: string): void {
   const link = document.createElement("a");
   link.download = filename;
   link.href = data;
