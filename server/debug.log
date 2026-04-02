@@ -1,0 +1,381 @@
+[2026-04-01T17:40:05.094Z] Middleware hit: POST /
+[2026-04-01T17:40:05.098Z] Before multer
+[2026-04-01T17:40:05.245Z] After multer, file: yes
+[2026-04-01T17:40:05.247Z] Request received
+File: æ§ä¹¦æçé»æ.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 18247
+Extracted text length: 13522
+First 100 chars: 旧书摊的黄昏
+
+暮春的黄昏总来得有些拖沓，夕阳把巷口的青石板染成暖融融的橘色，风卷着泡桐花的碎瓣，轻轻落在林小满的旧书摊前。摊面上摆着密密麻麻的书，大多是泛黄的平装本，封皮有些卷边，页脚也沾着淡淡的旧
+Calling translateTextWithBaidu...
+[2026-04-01T17:41:33.249Z] Middleware hit: POST /
+[2026-04-01T17:41:33.256Z] Before multer
+[2026-04-01T17:41:33.356Z] After multer, file: yes
+[2026-04-01T17:41:33.363Z] Request received
+File: æ§ä¹¦æçé»æ.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 18247
+Extracted text length: 13522
+First 100 chars: 旧书摊的黄昏
+
+暮春的黄昏总来得有些拖沓，夕阳把巷口的青石板染成暖融融的橘色，风卷着泡桐花的碎瓣，轻轻落在林小满的旧书摊前。摊面上摆着密密麻麻的书，大多是泛黄的平装本，封皮有些卷边，页脚也沾着淡淡的旧
+Calling translateTextWithBaidu...
+Translation done, length: 48258
+[2026-04-01T17:42:59.465Z] Middleware hit: POST /
+[2026-04-01T17:42:59.469Z] Before multer
+[2026-04-01T17:42:59.508Z] After multer, file: yes
+[2026-04-01T17:42:59.546Z] Request received
+File: æ§ä¹¦æçé»æ.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 18247
+Extracted text length: 13522
+First 100 chars: 旧书摊的黄昏
+
+暮春的黄昏总来得有些拖沓，夕阳把巷口的青石板染成暖融融的橘色，风卷着泡桐花的碎瓣，轻轻落在林小满的旧书摊前。摊面上摆着密密麻麻的书，大多是泛黄的平装本，封皮有些卷边，页脚也沾着淡淡的旧
+Calling translateTextWithBaidu...
+Translation done, length: 48258
+[2026-04-01T17:43:17.312Z] Middleware hit: POST /
+[2026-04-01T17:43:17.315Z] Before multer
+[2026-04-01T17:43:17.364Z] After multer, file: yes
+[2026-04-01T17:43:17.384Z] Request received
+File: æ§ä¹¦æçé»æ_translated.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 29512
+Extracted text length: 48365
+First 100 chars: The Twilight of Old Book Stalls
+
+The dusk of late spring always comes a bit sluggish. The sunset dye
+Calling translateTextWithBaidu...
+Translation done, length: 48295
+[2026-04-01T17:44:23.489Z] Middleware hit: POST /
+[2026-04-01T17:44:23.493Z] Before multer
+[2026-04-01T17:44:23.531Z] After multer, file: yes
+[2026-04-01T17:44:23.570Z] Request received
+File: æ§ä¹¦æçé»æ_translated.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 29512
+Extracted text length: 48365
+First 100 chars: The Twilight of Old Book Stalls
+
+The dusk of late spring always comes a bit sluggish. The sunset dye
+Calling translateTextWithBaidu...
+Translation done, length: 48295
+[2026-04-01T17:44:23.967Z] Middleware hit: POST /
+[2026-04-01T17:44:23.995Z] Before multer
+[2026-04-01T17:44:24.050Z] After multer, file: yes
+[2026-04-01T17:44:24.124Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 41870
+Extracted text length: 2519
+First 100 chars: 
+
+2025年1-12月公司利润表备注：1. 本利润表基于企业常规经营场景编制，数据为合理预估，实际金额需根据企业真实账务核算调整；2.所得税费用按25%基准税率计算，若企业符合税收优惠政策，可相应调
+Calling translateTextWithBaidu...
+Translation done, length: 5977
+[2026-04-01T17:51:38.175Z] Middleware hit: POST /
+[2026-04-01T17:51:38.192Z] Before multer
+[2026-04-01T17:51:38.284Z] After multer, file: yes
+[2026-04-01T17:51:38.290Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 41870
+Extracted HTML length: 7274
+First 200 chars of HTML: <p>2025年1-12月公司利润表<br />备注：1. 本利润表基于企业常规经营场景编制，数据为合理预估，实际金额需根据企业真实账务核算调整；2.所得税费用按25%基准税率计算，若企业符合税收优惠政策，可相应调整；3.</p><p>每股收益计算基于总股本1000000股，可根据企业实际总股本修改。</p><p>|（注：文档部分内容可能由 AI 生成)</p><table><tr><td></t
+Translating HTML content...
+Translation done, HTML length: 11080
+[2026-04-01T17:54:36.050Z] Middleware hit: POST /
+[2026-04-01T17:54:36.054Z] Before multer
+[2026-04-01T17:54:36.100Z] After multer, file: yes
+[2026-04-01T17:54:36.128Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 41870
+Extracted HTML length: 7274
+First 200 chars of HTML: <p>2025年1-12月公司利润表<br />备注：1. 本利润表基于企业常规经营场景编制，数据为合理预估，实际金额需根据企业真实账务核算调整；2.所得税费用按25%基准税率计算，若企业符合税收优惠政策，可相应调整；3.</p><p>每股收益计算基于总股本1000000股，可根据企业实际总股本修改。</p><p>|（注：文档部分内容可能由 AI 生成)</p><table><tr><td></t
+Translating HTML content...
+Translation done, HTML length: 11080
+[2026-04-01T17:55:39.716Z] Middleware hit: POST /
+[2026-04-01T17:55:39.717Z] Before multer
+[2026-04-01T17:55:39.764Z] After multer, file: yes
+[2026-04-01T17:55:39.794Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨_translated (1).docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 17892
+Extracted HTML length: 11096
+First 200 chars of HTML: <p>     </p><p>Profit and loss statement of the company from January to December 2025<br />Note: 1 This profit and loss statement is prepared based on the normal operating scenarios of the enterprise,
+Translating HTML content...
+Translation done, HTML length: 11106
+[2026-04-01T17:56:35.802Z] Middleware hit: POST /
+[2026-04-01T17:56:35.804Z] Before multer
+[2026-04-01T17:56:35.841Z] After multer, file: yes
+[2026-04-01T17:56:35.885Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨_translated (1).docx
+Body: {"direction":"en2zh"}
+Extracting text from docx, buffer size: 17892
+Extracted HTML length: 11096
+First 200 chars of HTML: <p>     </p><p>Profit and loss statement of the company from January to December 2025<br />Note: 1 This profit and loss statement is prepared based on the normal operating scenarios of the enterprise,
+Translating HTML content...
+Translation done, HTML length: 7217
+[2026-04-01T18:03:35.429Z] Middleware hit: POST /
+[2026-04-01T18:03:35.433Z] Before multer
+[2026-04-01T18:03:35.458Z] After multer, file: yes
+[2026-04-01T18:03:35.487Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Extracting text from docx, buffer size: 41870
+Extracted HTML length: 7274
+First 200 chars of HTML: <p>2025年1-12月公司利润表<br />备注：1. 本利润表基于企业常规经营场景编制，数据为合理预估，实际金额需根据企业真实账务核算调整；2.所得税费用按25%基准税率计算，若企业符合税收优惠政策，可相应调整；3.</p><p>每股收益计算基于总股本1000000股，可根据企业实际总股本修改。</p><p>|（注：文档部分内容可能由 AI 生成)</p><table><tr><td></t
+Translating HTML content...
+Translation done, HTML length: 11080
+[2026-04-01T18:07:48.356Z] Middleware hit: POST /
+[2026-04-01T18:07:48.422Z] Before multer
+[2026-04-01T18:07:48.631Z] After multer, file: yes
+[2026-04-01T18:07:48.641Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1305525
+[2026-04-01T18:11:29.356Z] Middleware hit: POST /
+[2026-04-01T18:11:29.375Z] Before multer
+[2026-04-01T18:11:29.556Z] After multer, file: yes
+[2026-04-01T18:11:29.563Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1119073
+[2026-04-01T18:15:40.870Z] Middleware hit: POST /
+[2026-04-01T18:15:40.887Z] Before multer
+[2026-04-01T18:15:40.972Z] After multer, file: yes
+[2026-04-01T18:15:40.981Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1119070
+[2026-04-01T18:23:21.938Z] Middleware hit: POST /
+[2026-04-01T18:23:21.954Z] Before multer
+[2026-04-01T18:23:22.007Z] After multer, file: yes
+[2026-04-01T18:23:22.009Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1118918
+[2026-04-01T18:26:34.840Z] Middleware hit: POST /
+[2026-04-01T18:26:34.858Z] Before multer
+[2026-04-01T18:26:34.967Z] After multer, file: yes
+[2026-04-01T18:26:34.969Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 830235
+[2026-04-01T18:29:32.708Z] Middleware hit: POST /
+[2026-04-01T18:29:32.712Z] Before multer
+[2026-04-01T18:29:32.809Z] After multer, file: yes
+[2026-04-01T18:29:32.813Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 830235
+[2026-04-01T18:32:31.036Z] Middleware hit: POST /
+[2026-04-01T18:32:31.045Z] Before multer
+[2026-04-01T18:32:31.155Z] After multer, file: yes
+[2026-04-01T18:32:31.160Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1118918
+[2026-04-01T18:37:51.433Z] Middleware hit: POST /
+[2026-04-01T18:37:51.443Z] Before multer
+[2026-04-01T18:37:51.580Z] After multer, file: yes
+[2026-04-01T18:37:51.582Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en","outputFormat":"pdf"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1118918
+PDF conversion failed: callback is not a function
+[2026-04-01T18:46:00.810Z] Middleware hit: POST /
+[2026-04-01T18:46:00.828Z] Before multer
+[2026-04-01T18:46:00.912Z] After multer, file: yes
+[2026-04-01T18:46:00.918Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1118918
+[2026-04-01T18:50:43.577Z] Middleware hit: POST /
+[2026-04-01T18:50:43.586Z] Before multer
+[2026-04-01T18:50:43.747Z] After multer, file: yes
+[2026-04-01T18:50:43.750Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1117630
+[2026-04-01T18:53:32.323Z] Middleware hit: POST /
+[2026-04-01T18:53:32.330Z] Before multer
+[2026-04-01T18:53:32.518Z] After multer, file: yes
+[2026-04-01T18:53:32.597Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1115290
+[2026-04-01T18:55:48.613Z] Middleware hit: POST /
+[2026-04-01T18:55:48.619Z] Before multer
+[2026-04-01T18:55:48.705Z] After multer, file: yes
+[2026-04-01T18:55:48.712Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Processing docx, buffer size: 41870
+Translating document while preserving formatting...
+Translation done, output buffer size: 1114939
+[2026-04-01T18:57:27.693Z] Middleware hit: POST /
+[2026-04-01T18:57:27.698Z] Before multer
+[2026-04-01T18:57:27.744Z] After multer, file: yes
+[2026-04-01T18:57:27.773Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨_translated (16).docx
+Body: {"direction":"en2zh"}
+Processing docx, buffer size: 69659
+Translating document while preserving formatting...
+Translation done, output buffer size: 1091770
+[2026-04-01T19:03:04.338Z] Middleware hit: POST /
+[2026-04-01T19:03:04.346Z] Before multer
+[2026-04-01T19:03:04.448Z] After multer, file: yes
+[2026-04-01T19:03:04.453Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨_translated (16).docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: en
+Auto translation direction: en -> zh
+Processing docx, buffer size: 69659
+Translating document while preserving formatting...
+Translation done, output buffer size: 1091770
+[2026-04-01T19:03:49.321Z] Middleware hit: POST /
+[2026-04-01T19:03:49.324Z] Before multer
+[2026-04-01T19:03:49.361Z] After multer, file: yes
+[2026-04-01T19:03:49.384Z] Request received
+File: çº¯åå®ç½å¯¼èªç«ï¼ç¬è«+äººå·¥å®¡æ ¸+ç¨æ·æç¥¨ï¼å¼åè¯¦ç»è®¡å.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: zh
+Auto translation direction: zh -> en
+Processing docx, buffer size: 17877
+Translating document while preserving formatting...
+Translation done, output buffer size: 152951
+[2026-04-01T19:08:17.254Z] Middleware hit: POST /
+[2026-04-01T19:08:17.257Z] Before multer
+[2026-04-01T19:08:17.303Z] After multer, file: yes
+[2026-04-01T19:08:17.324Z] Request received
+File: 1000 Words English Test Text.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: en
+Auto translation direction: en -> zh
+Processing docx, buffer size: 5823
+Translating document while preserving formatting...
+Translation done, output buffer size: 13358
+[2026-04-01T19:10:26.018Z] Middleware hit: POST /
+[2026-04-01T19:10:26.036Z] Before multer
+[2026-04-01T19:10:26.168Z] After multer, file: yes
+[2026-04-01T19:10:26.172Z] Request received
+File: 1000 Words English Test Text.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: en
+Auto translation direction: en -> zh
+Processing docx, buffer size: 5823
+Translating document while preserving formatting...
+Translation done, output buffer size: 12527
+[2026-04-01T19:11:22.248Z] Middleware hit: POST /
+[2026-04-01T19:11:22.252Z] Before multer
+[2026-04-01T19:11:22.296Z] After multer, file: yes
+[2026-04-01T19:11:22.354Z] Request received
+File: æ§ä¹¦æçé»æ.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: zh
+Auto translation direction: zh -> en
+Processing docx, buffer size: 18247
+Translating document while preserving formatting...
+Translation done, output buffer size: 81448
+[2026-04-01T19:26:31.981Z] Middleware hit: POST /
+[2026-04-01T19:26:31.994Z] Before multer
+[2026-04-01T19:26:32.099Z] After multer, file: yes
+[2026-04-01T19:26:32.105Z] Request received
+File: çº¯åå®ç½å¯¼èªç«ï¼ç¬è«+äººå·¥å®¡æ ¸+ç¨æ·æç¥¨ï¼å¼åè¯¦ç»è®¡å.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: zh
+Auto translation direction: zh -> en
+Processing docx, buffer size: 17877
+Translating document while preserving formatting...
+Translation done, output buffer size: 152951
+[2026-04-01T19:28:48.734Z] Middleware hit: POST /
+[2026-04-01T19:28:48.738Z] Before multer
+[2026-04-01T19:28:48.772Z] After multer, file: yes
+[2026-04-01T19:28:48.796Z] Request received
+File: çº¯åå®ç½å¯¼èªç«ï¼ç¬è«+äººå·¥å®¡æ ¸+ç¨æ·æç¥¨ï¼å¼åè¯¦ç»è®¡å.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: zh
+Auto translation direction: zh -> en
+Processing docx, buffer size: 17877
+Translating document while preserving formatting...
+Translation done, output buffer size: 152951
+[2026-04-01T19:29:02.824Z] Middleware hit: POST /
+[2026-04-01T19:29:02.861Z] Before multer
+[2026-04-01T19:29:02.885Z] After multer, file: yes
+[2026-04-01T19:29:02.909Z] Request received
+File: 1000 Words English Test Text.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: en
+Auto translation direction: en -> zh
+Processing docx, buffer size: 5823
+Translating document while preserving formatting...
+Translation done, output buffer size: 12527
+[2026-04-02T07:12:05.631Z] Middleware hit: POST /
+[2026-04-02T07:12:05.635Z] Before multer
+[2026-04-02T07:12:05.678Z] After multer, file: yes
+[2026-04-02T07:12:05.696Z] Request received
+File: 111.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: zh
+Auto translation direction: zh -> en
+Processing docx, buffer size: 10963
+Translating document while preserving formatting...
+Translation done, output buffer size: 47908
+[2026-04-02T08:45:50.610Z] Middleware hit: POST /
+[2026-04-02T08:45:50.635Z] Before multer
+[2026-04-02T08:45:50.743Z] After multer, file: yes
+[2026-04-02T08:45:50.758Z] Request received
+File: 2025å¹´1-12æå¬å¸å©æ¶¦è¡¨.docx
+Body: {"direction":"zh2en"}
+Detecting document language...
+Detected language: zh
+Auto translation direction: zh -> en
+Processing docx, buffer size: 18552
+Translating document while preserving formatting...
+Translation done, output buffer size: 207559
+[2026-04-02T12:53:20.553Z] Middleware hit: POST /
+[2026-04-02T12:54:54.260Z] Middleware hit: POST /
+[2026-04-02T13:11:53.972Z] Middleware hit: POST /
+[2026-04-02T13:12:31.114Z] Middleware hit: POST /
+[2026-04-02T13:38:57.395Z] Middleware hit: POST /
+[2026-04-02T13:39:58.296Z] Middleware hit: POST /
+[2026-04-02T13:45:03.888Z] Middleware hit: POST /
+[2026-04-02T13:49:03.274Z] Middleware hit: POST /
+[2026-04-02T14:36:20.616Z] Middleware hit: POST /
+[2026-04-02T14:37:02.831Z] Middleware hit: POST /
+[2026-04-02T14:38:08.748Z] Middleware hit: POST /
